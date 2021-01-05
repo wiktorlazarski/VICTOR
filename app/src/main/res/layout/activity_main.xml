@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#151313"
+    android:background="#000000"
     tools:context=".MainActivity">
 
     <ImageView
@@ -45,33 +45,35 @@
 
     <TextView
         android:id="@+id/app_name_main_tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="310dp"
+        android:layout_height="89dp"
         android:layout_marginStart="4dp"
         android:layout_marginLeft="4dp"
-        android:layout_marginTop="4dp"
         android:layout_marginEnd="4dp"
         android:layout_marginRight="4dp"
         android:fontFamily="@font/mountains_of_christmas_bold"
+        android:gravity="center"
         android:text="@string/app_name_extended"
         android:textColor="#FFFFFF"
-        android:textSize="24sp"
+        android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/victor_main_tv"
         tools:text="@string/app_name_extended" />
 
     <TextView
         android:id="@+id/victor_main_tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="309dp"
+        android:layout_height="105dp"
         android:layout_marginTop="32dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="1dp"
         android:fontFamily="@font/mountains_of_christmas_bold"
+        android:gravity="center"
         android:text="@string/app_name"
         android:textAllCaps="true"
         android:textColor="#FFFFFF"
-        android:textSize="56sp"
+        android:textSize="86sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/app_name_main_tv"
         app:layout_constraintEnd_toEndOf="parent"
