@@ -15,6 +15,7 @@
         android:layout_marginLeft="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
+        android:contentDescription="@string/victor_image"
         android:src="@drawable/oracle"
         app:layout_constraintBottom_toTopOf="@+id/tell_me_btn"
         app:layout_constraintEnd_toEndOf="parent"

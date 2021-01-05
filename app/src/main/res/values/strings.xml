@@ -2,4 +2,5 @@
     <string name="app_name">VICTOR</string>
     <string name="tell_me">Tell me what you see !</string>
     <string name="app_name_extended">Visual Image Captioning Telling ORacle</string>
+    <string name="victor_image">VICTOR image</string>
 </resources>
