@@ -4,15 +4,76 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#151313"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:id="@+id/oracle_main_iv"
+        android:layout_width="295dp"
+        android:layout_height="441dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:src="@drawable/oracle"
+        app:layout_constraintBottom_toTopOf="@+id/tell_me_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/app_name_main_tv"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/tell_me_btn"
+        android:layout_width="247dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="64dp"
+        android:fontFamily="@font/cookie"
+        android:text="@string/tell_me"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="26sp"
+        app:backgroundTint="#FBE203"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent" />
+
     <TextView
+        android:id="@+id/app_name_main_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:fontFamily="@font/mountains_of_christmas_bold"
+        android:text="@string/app_name_extended"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/victor_main_tv"
+        tools:text="@string/app_name_extended" />
 
+    <TextView
+        android:id="@+id/victor_main_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/mountains_of_christmas_bold"
+        android:text="@string/app_name"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="56sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/app_name_main_tv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
