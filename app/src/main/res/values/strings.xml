@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">VICTOR</string>
-    <string name="tell_me">Tell me what you see !</string>
+    <string name="tell_prophecy">Tell image caption prophecy !</string>
     <string name="app_name_extended">Visual Image Captioning Telling ORacle</string>
     <string name="victor_image">VICTOR image</string>
+    <string name="victor_says">VICTOR thinks image says</string>
+    <string name="photo_image">Photo taken to produce capture</string>
 </resources>
