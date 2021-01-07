@@ -10,14 +10,14 @@
 
 To start click _"Tell image caption prophecy !"_ button.
 
-![alt text](https://db3pap002files.storage.live.com/y4pxj6GlyPV-dRkW5YvdhwYlzIzIDlNqPdApxaCK3E01Jp7IczGUYGqCZwJia8n3PL67q4i5-ZbV2_bSD2MMmQF0-Hrd3aMCz2iMzgPrM8n4L0OPjlaVdMPe77DRwKI-B5wW3p7aGXt2VtTpn-5tDXTzZWpeB1nMetiKz3reScRy-B2YhpGAOWh5x_YcRzW0M9YClUNANemQx-3DsCdTiumhDi4VmbZvezo0I7dmNGSgTM/front.jpeg?psid=1&width=400&height=856)
+![alt text](https://db3pap002files.storage.live.com/y4m-cyUXKHfNbL4MjTuFVygnFmszjPx0_nDBzv4JkzRPtzT40guqUxcPafChF882vzWna6u2SIPuWAJPn9n59Z9-llg5t6iCndOrSkodmRLfRGjb2B-b4JSI9gQpYR7a1KlEA56vqwGTUvxPwCSNFqmnhjF-aRLa7F4-5t--MKHfVnUb2hpUqBg1IUtqMge1HiNaSAy2Wwn9W-ndHdk-sES0A/front.jpeg?psid=1&width=400&height=857)
 
 ### Step 2: Take a picture
 
-![alt text](https://db3pap002files.storage.live.com/y4p90BK1D2c73afI3RWCe51RsN2rG0s6-yesqJTKlei5Qy9vDFEDeTSI727EbvH3mn1LSlOl15vWQkQJoIG1R3QpKvssHkdTlHXC54d6mbYuKe34IhSC8653fLwEhm7w4PDk-XpJoJ5_QYljALCzUDR9pQptTVAK_57dbCLmV7xHZMYeW5o36hjCTpmGEr2XXAd9mXz7nDGs8qzJo7FUr2k6WAr9etE8l87gaZdosnWQY8/middle.jpeg?psid=1&width=400&height=856)
+![alt text](https://db3pap002files.storage.live.com/y4mYO5p_RNsH8Sl6RxjPl2bNe_rXUGRAAo5t2aMyQZnVJw2smAMU5l04rhcS1hAqUw_TM-UXGbtxY5zpzwtxNCOzto1HYyY_wj0H6hKc6Z-KZMnP8b1nIESjWcT3MEiSmPclGoLlZdDZraXQvxfCo_Gjkgl4n-TrI4naH9QBo7dtyjonkhWxcVRH90Sh7N3nnd9YxnNgQWekWJf0817eYpNhQ/middle.jpeg?psid=1&width=400&height=857)
 
 ### Step 3: Display an image caption activity
 
 This activity will present image caption at the bottom. Currently, it displays _"Visual Image CAptioning Telling ORacle"_.
 
-![alt text](https://db3pap002files.storage.live.com/y4pMF5A9xP1VVNtbw-bWag5-UAyP_Ki5f0yhzQfg5R259s7CBKsD_3qFrz9yPJpPvC1916n1G7dH8WF3pGNhPla5_0pjtEba4gEIldDTuHJZtz3ehL878tPe9tdqJYPSxowrMhINzTg0gmY12u468RCDCaj18WVcHHjD2LAD9deFTto9TT803sfe_cuQk3Ln1SrwCF8yCaU6ID7yjgEJCcdeptKGb0lCUD90XLUuK8QJ_k/back.jpeg?psid=1&width=400&height=856)
+![alt text](https://db3pap002files.storage.live.com/y4mGXLvVOfWUgxA04GVmfG21-6EN6E6Qzg2lU0J0E_Zzt2b0aQc2UhE3X2Ogn_zQ8dpicOARkjC1mjkmCwEnpQA-JDH71jtNBw33Kvdp7BF1-TbofDiV9FJ-Er_XAjb-RGrVGIE5LnEumuerBPAQFlNgxD_MpeulLrOu4a2YgnDUS17RssaN0sxDt8wIY8f8OJa6qheqcAkSUg_RJ_QxKklgA/back.jpeg?psid=1&width=400&height=857)
