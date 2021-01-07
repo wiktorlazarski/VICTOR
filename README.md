@@ -1,5 +1,9 @@
-# VICTOR
-🕴️ Visual Image Captioning Telling ORacle
+# 🕴️ VICTOR
+**V**isual <br />
+**I**mage <br />
+**C**aptioning <br />
+**T**elling <br />
+**OR**acle<br />
 
 ## Application Flow
 ### Step 1: Start image capturing process
