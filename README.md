@@ -18,6 +18,6 @@ To start click _"Tell image caption prophecy !"_ button.
 
 ### Step 3: Display an image caption activity
 
-This activity will present image caption at the bottom. Currently, it displays _"Visual Image CAptioning Telling ORacle"_.
+This activity will present image caption at the bottom. Currently, it displays _"Visual Image Captioning Telling ORacle"_.
 
 ![alt text](https://db3pap002files.storage.live.com/y4mGXLvVOfWUgxA04GVmfG21-6EN6E6Qzg2lU0J0E_Zzt2b0aQc2UhE3X2Ogn_zQ8dpicOARkjC1mjkmCwEnpQA-JDH71jtNBw33Kvdp7BF1-TbofDiV9FJ-Er_XAjb-RGrVGIE5LnEumuerBPAQFlNgxD_MpeulLrOu4a2YgnDUS17RssaN0sxDt8wIY8f8OJa6qheqcAkSUg_RJ_QxKklgA/back.jpeg?psid=1&width=200&height=428)
