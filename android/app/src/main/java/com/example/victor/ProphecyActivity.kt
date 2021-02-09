@@ -49,6 +49,10 @@ class ProphecyActivity : AppCompatActivity() {
                 setImageBitmap(bitmap)
             }
         }
+        else {
+            val startActivityIntent = Intent(this, MainActivity::class.java)
+            startActivity(startActivityIntent)
+        }
     }
 
 
