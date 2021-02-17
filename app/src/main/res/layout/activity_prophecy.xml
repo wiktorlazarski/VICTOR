@@ -40,9 +40,9 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="32dp"
-        android:fontFamily="@font/cookie"
+        android:fontFamily="@font/mountains_of_christmas_bold"
         android:gravity="center"
-        android:text="@string/app_name_extended"
+        android:text="@string/thinking"
         android:textColor="@color/white"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -61,7 +61,7 @@
 
     <TextView
         android:id="@+id/says_tv"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"

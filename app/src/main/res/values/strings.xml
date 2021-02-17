@@ -5,4 +5,6 @@
     <string name="victor_image">VICTOR image</string>
     <string name="victor_says">VICTOR thinks image says</string>
     <string name="photo_image">Photo taken to produce capture</string>
+    <string name="thinking">Prophesying caption</string>
+    <string name="sorry">I\'m sorry. Brain on break.\nTry again later !</string>
 </resources>

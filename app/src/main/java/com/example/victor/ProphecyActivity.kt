@@ -1,5 +1,6 @@
 package com.example.victor
 
+import android.app.ProgressDialog
 import android.content.Intent
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
@@ -24,6 +25,7 @@ import java.io.File
 class ProphecyActivity : AppCompatActivity() {
     private var requestQueue: RequestQueue? = null
     private var currPhotoPath: String? = null
+    private var progressDialog: ProgressDialog? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -68,13 +70,25 @@ class ProphecyActivity : AppCompatActivity() {
 
             val request = JsonObjectRequest(
                 Request.Method.POST,
-                "http://192.168.8.101:1234/caption",
+                "http://192.168.8.105:1234/caption",
                 jsonBody,
                 { response -> findViewById<TextView>(R.id.prophecy_view).apply {
                     text = response.get("caption").toString()
-                } },
-                { error -> Log.d("RESPONSE err", "error->$error") })
+                    }
+                    progressDialog?.dismiss()
+                },
+                { error -> findViewById<TextView>(R.id.prophecy_view).apply {
+                    text = ""
+                    }
+                    progressDialog?.dismiss()
+                    findViewById<TextView>(R.id.says_tv).apply {
+                        text = resources.getString(R.string.sorry)
+                    }}
+            )
 
+            progressDialog = ProgressDialog(this)
+            progressDialog?.setMessage(resources.getString(R.string.thinking))
+            progressDialog?.show()
             requestQueue?.add(request)
         }
         else {

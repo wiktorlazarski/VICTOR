@@ -2,6 +2,7 @@
 <resources>
     <array name="preloaded_fonts" translatable="false">
         <item>@font/cookie</item>
+        <item>@font/lobster</item>
         <item>@font/mountains_of_christmas_bold</item>
     </array>
 </resources>
