@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">VICTOR</string>
+    <string name="ip_dialog_title">&#129504; VICTOR\'s brain IP address &#129504;</string>
+    <string name="ip_hint">Server IPv4 address</string>
+    <string name="port_hint">Server port</string>
     <string name="tell_prophecy">Tell image caption prophecy !</string>
     <string name="app_name_extended">Visual Image Captioning Telling ORacle</string>
     <string name="victor_image">VICTOR image</string>

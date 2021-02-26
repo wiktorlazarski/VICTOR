@@ -8,7 +8,6 @@ import android.os.Bundle
 import android.os.Environment
 import android.provider.MediaStore
 import android.util.Base64
-import android.util.Log
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
@@ -26,10 +25,13 @@ class ProphecyActivity : AppCompatActivity() {
     private var requestQueue: RequestQueue? = null
     private var currPhotoPath: String? = null
     private var progressDialog: ProgressDialog? = null
+    private var serverAddress: String? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_prophecy)
+
+        serverAddress = intent.getStringExtra(SERVER_ADDRESS)
 
         requestQueue = Volley.newRequestQueue(this)
 
@@ -70,14 +72,14 @@ class ProphecyActivity : AppCompatActivity() {
 
             val request = JsonObjectRequest(
                 Request.Method.POST,
-                "http://192.168.8.105:1234/caption",
+                "http://$serverAddress/caption",
                 jsonBody,
                 { response -> findViewById<TextView>(R.id.prophecy_view).apply {
                     text = response.get("caption").toString()
                     }
                     progressDialog?.dismiss()
                 },
-                { error -> findViewById<TextView>(R.id.prophecy_view).apply {
+                { _ -> findViewById<TextView>(R.id.prophecy_view).apply {
                     text = ""
                     }
                     progressDialog?.dismiss()
